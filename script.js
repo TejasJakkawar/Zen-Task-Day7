@@ -7,8 +7,10 @@ class person{
         this.Address=Address
         this.Pin=Pin
     }
-   
 }
+    var Tejas= new person("Tejas Jakkawar", 23, "Male", "10 July 1998", "Pune", "411044")
+   
+
 
 class uber{
     constructor(distance){
@@ -20,3 +22,4 @@ class uber{
    
 }
 
+var ride=new uber(20)
